@@ -23,9 +23,9 @@ export const checkSubscription = async () => {
     },
   })
 
-  if (!userSubscription) {
-    return false;
-  }
+  // if (!userSubscription) {
+  //   return false;
+  // }
 
   const isValid =
     userSubscription.stripePriceId &&
